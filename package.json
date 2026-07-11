@@ -1,0 +1,39 @@
+{
+  "name": "grimoire-nexus",
+  "version": "0.1.0",
+  "description": "Custom GitHub App connecting Perplexity, Grok, and Gemini for seamless AI-assisted development workflows.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'Add eslint later'"
+  },
+  "keywords": [
+    "github-app",
+    "ai",
+    "perplexity",
+    "grok",
+    "gemini",
+    "multi-llm",
+    "workflow",
+    "automation"
+  ],
+  "author": "5mil + Grok",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/app": "^14.0.0",
+    "@octokit/rest": "^20.0.0",
+    "@google/generative-ai": "^0.21.0",
+    "openai": "^4.52.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0",
+    "vercel": "^34.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
